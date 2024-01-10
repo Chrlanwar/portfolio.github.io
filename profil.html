@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://kit.fontawesome.com/883f0f3291.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+      </div>
+    <div class="header-text">
+      <p>UI/UX Designer</p>
+        <h1>HI, I'm <span>Chairul Anwar</span></br></h1>
+         <p>Welcome to my personal website. Here, you'll discover my portfolio!</p>
+      </div>
+    </div>
+    <!-----------about---------->
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="gambar/AA.png">
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>Hello, I'm Chairul Anwar, a dedicated individual with a passion for organizational management, teamwork,
+                 and team coordination. Currently a Information Systems student at Pamulang University and also a staff in the aviation industry,
+                  I aim to utilize my skills and experience to enhance efficiency and safety in
+                   the workplace through precise organizational management and effective coordination.
+                   With a unique perspective as a student and staff member in the aviation industry,
+                 I am enthusiastic about teamwork & coordination. consistently striving for excellence in every endeavor.</p>
+                <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                  <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                  <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab"id="skills">
+                  <ul>
+                    <li><span>Adobe</span><br>Illuslator, Photoshop</li>
+                    <li><span>MS office</span><br>Word, Powerpoint</li>
+                    <li><span>Programing</span><br>HTML, CSS, PHP, MySql</li>
+                  </ul>
+                </div>
+                <div class="tab-contents"id="experience">
+                  <ul>
+                    <li><span>AIEC</span><br>Cleaning the aircraft cabin Area</li>
+                    <li><span>Production Oprator</span><br>Creating product, packaging and conducting product inspection</li>
+                  </ul>
+                </div>
+                <div class="tab-contents"id="education">
+                  <ul>
+                    <li><span>2009 - 2015</span><br>SDN Kapuk Jaya</li>
+                    <li><span>2015 - 2018</span><br>SMPN 2 Teluknaga</li>
+                    <li><span>2018 - 2021</span><br>SMAN 12 Kab. Tangerang</li>
+                    <li><span>2022 - Presen</span><br>Pamulang University Information System s1</li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-----------services---------->
+      <div id="services">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>Connection</h2>
+              <p>
+                i have an interest in the technology sector,
+                which facilitates my understanding of emerging technologies for businesses or companies.
+                Additionally, i can easly adapt to environments based on their specific needs.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-plane"></i>
+              <h2>Team work</h2>
+              <p>
+                Working in the aviation industry has taught me to prioritize teamwork, operate swiftly, and coordinate effectively.
+                i am also capable of working independently and adapting to new situations.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-pen-to-square"></i>
+              <h2>Editing</h2>
+              <p>
+                I am interested in editing and perhaps i will delve deeper into learning UI/UX desin.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--------------portfolio----------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="gambar/id card.png">
+            <div class="layer">
+              <h3>ID Card</h3>
+              <p>Hasil editing mengguakan AI untuk membuat ID card</p>
+              <a href="gambar/id card.png" download><i class="fa-solid fa-download"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="gambar/UAS.jpg">
+            <div class="layer">
+              <h3>Poster mahasiswa baru</h3>
+              <p>Pembuatan poster penerimaan mahasiswa baru menggunakan Photoshop</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="gambar/poster.jpg">
+            <div class="layer">
+              <h3>Poster Promosi</h3>
+              <p>Pembuatan Poster promosi Produk Mengunakan AI untuk perusahaan sendiri. </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="gambar/pertemuan 21.jpg">
+            <div class="layer">
+              <h3>Poster Akhir tahun</h3>
+              <p>Poster diskon perusahaan sndiri mengunakan PS bertemakan akhirtahun. </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="gambar/Chairul Anwar_221011700377_UTS Design Grafis2.jpg">
+            <div class="layer">
+              <h3>Baner Selamat Datang</h3>
+              <p>Pembuatan Baner selamat datang dengan Mengunakan AI bertemakan Perusahaan sendiri. </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="gambar/cliping mask.png">
+            <div class="layer">
+              <h3>Branding Perusahaan</h3>
+              <p>Pembuatan logo dan nama perusahaan sendiri. </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!------Contact----->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>Achairullanwar@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>089528241147</p>
+            <div class="social-icons">
+              <a href="https://facebook.com/engay.engay.77"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://instagram.com/chrlanwar__"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://wa.me/+6289528241147"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="mailto:achairullanwar@gmai.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <a href="gambar/ANWAR.pdf"download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right"></div>
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email"required>
+          <textarea name="Message" rows="6" placeholder="Your Message"required></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>copyright by Chairul Anwar. </p>
+      </div>
+    </div>
+
+
+      <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+  for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+  }
+  for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+  }
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
+}
+
+      </script>
+
+      <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+          sidemenu.style.right = "0";
+        }
+        function closemenu(){
+          sidemenu.style.right = "-200px";
+        }
+      </script>
+  </body>
+</html>
